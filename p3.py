@@ -1,7 +1,6 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-
 st.title("Salary Prediction")
 data=pd.read_csv("/Users/regenesys/ML/Salary_Data.csv")
 x=data['YearsExperience']
@@ -17,7 +16,6 @@ if m=='Home':
     st.write(data.head())
     st.write("Dataset Information")
     st.write(data.describe())
-    
 elif m=='Prediction':
     st.subheader("PREDICTION")
     from sklearn.model_selection import train_test_split
