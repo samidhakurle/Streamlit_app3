@@ -287,7 +287,7 @@ simplegeneric==0.8.1
 simplejson==3.17.6
 singledispatch @ file:///tmp/build/80754af9/singledispatch_1629321204894/work
 six @ file:///tmp/build/80754af9/six_1623709665295/work
-sklearn==1.1.1
+sklearn==0.0.0
 smmap @ file:///tmp/build/80754af9/smmap_1611694433573/work
 sniffio @ file:///opt/concourse/worker/volumes/live/1faeb672-6d3f-4f1f-7861-294fcf282962/volume/sniffio_1614030462215/work
 snowballstemmer @ file:///tmp/build/80754af9/snowballstemmer_1611258885636/work
