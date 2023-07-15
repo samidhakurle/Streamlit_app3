@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 st.title("Salary Prediction")
-data=pd.read_csv("/Users/regenesys/ML/Salary_Data.csv")
+data=pd.read_csv("Salary_Data.csv")
 x=data['YearsExperience']
 st.write("X--> Years of Experience",x)
 y=data['Salary']
